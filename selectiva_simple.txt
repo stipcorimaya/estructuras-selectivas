@@ -15,3 +15,5 @@ Changes not staged for commit:
 	modified:   selectiva_simple.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+Determinar si un alumno aprueba o reprueba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70; reprueba en caso contrario.
+Determinar si un alumno aprueba o reprueba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70; reprueba en caso contrario.
