@@ -1,1 +1,2 @@
 estructura selectiva multiple
+Si las vocales se representan con números del 1 al 5, lea un número e indique que vocal es.(selectiva multiple)
