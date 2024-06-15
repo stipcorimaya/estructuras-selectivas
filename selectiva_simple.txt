@@ -1,1 +1,17 @@
 estructura selectiva simple
+8. En un juego de preguntas a las que se responde “Si” o “No” gana quien responda
+correctamente las tres preguntas. Si se responde mal a cualquiera de ellas ya no se
+pregunta la siguiente y termina el juego. Las preguntas son:
+¿Colón descubrió América?
+¿El lago Titicaca es el lago navegable más alto del mundo?
+¿El español es el único idioma oficial de Perú?
+En un juego de preguntas a las que se responde SI o NO gana quien responda correctamente las tres preguntas. Si se responde mal a cualquiera de ellas ya no se pregunta la siguiente y termina el juego. Las preguntas son: ¿Colón descubrió América? ¿El lago Titicaca es el lago navegable más alto del mundo? ¿El español es el único idioma oficial de Perú?
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   selectiva_simple.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
