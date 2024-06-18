@@ -1,3 +1,14 @@
 estructura selectiva simple
-Determinar si un alumno aprueba o reprueba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70; reprueba en caso contrario.
  como dato la cantidad de artículos a comprar, escriba “Ir a la caja Rápida” en caso de que este número sea menor a 8 artículos
+
+#include<iostream>
+using namespace std;
+int main(){
+int art;
+cout<<"cantidad de articulos"<<endl;
+cin>>art;
+if(art<8){
+	cout<<"ir a la caja rapida";
+}
+return 0;
+}
