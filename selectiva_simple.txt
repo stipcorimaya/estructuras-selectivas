@@ -5,10 +5,13 @@ estructura selectiva simple
 using namespace std;
 int main(){
 int art;
-cout<<"cantidad de articulos"<<endl;
+char nom[20];
+cout<<"cantidad de articulos comprados"<<endl;
 cin>>art;
 if(art<8){
-	cout<<"ir a la caja rapida";
+	cout<<"nombre del cliente: ";
+	cin>>nom;
+	cout<<nom<<" usted debe ir a la caja rapida";
 }
 return 0;
 }
