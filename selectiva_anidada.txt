@@ -2,19 +2,20 @@ estructura selectiva anidada
 En un juego de preguntas a las que se responde SI o NO gana quien responda correctamente las tres preguntas. Si se responde mal a cualquiera de ellas ya no se pregunta la siguiente y termina el juego. Las preguntas son: ¿Colón descubrió América? ¿El lago Titicaca es el lago navegable más alto del mundo? ¿El español es el único idioma oficial de Perú? (selectiva anidada)
 
 #include<iostream>
+#include<stdio.h>
 using namespace std;
 int main(){
-int r1,r2,r3;
-cout <<"1=si y 0=no"<<endl;
+string r1,r2,r3;
+cout <<"escribir si y no a las preguntas"<<endl;
 cout<<"Colon descubrio america?"<<endl;
 cin>>r1;
-if(r1==1){
+if(r1=="si"){
 	cout<<"El lago Titicaca es el lago navegable más alto del mundo?"<<endl;
 	cin>>r2;
-	if(r2==1){
+	if(r2=="si"){
 		cout<<"El español es el único idioma oficial de Perú?"<<endl;
 		cin>>r3;
-		if(r3!=1){
+		if(r3=="no"){
 			cout<<"ganaste"<<endl;
 		}else{
 			cout<<"perdiste"<<endl;
