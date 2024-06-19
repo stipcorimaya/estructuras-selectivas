@@ -1,2 +1,30 @@
 estructura selectiva multiple
 Si las vocales se representan con números del 1 al 5, lea un número e indique que vocal es.(selectiva multiple)
+
+#include<iostream>
+using namespace std;
+int main(){
+	int num;
+	cout<<"escribe un numero del 1 al 5 para convertirlo en vocal"<<endl;
+	cin>>num;
+	switch(num){
+		case 1:
+			cout<<"su vocal es a";
+			break;
+		case 2:
+			cout<<"su vocal es e";
+			break;
+		case 3:
+			cout<<"su vocal es i";
+			break;
+		case 4:
+			cout<<"su vocal es o";
+			break;
+		case 5:
+			cout<<"su vocal es u";
+			break;
+		default :
+			cout<<"ERROR";
+	}
+	return 0;
+}
